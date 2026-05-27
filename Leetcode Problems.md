@@ -16,6 +16,7 @@
 > 4. Create a new string and invert the new defined string
 > 5. Compare if both are equal; return true if they are, or false otherwise **_Solved_**
 
+## 217. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/?envType=problem-list-v2&envId=oizxjoit)
 ### Description
 > From an array of numbers, return True if a number is repeated at least twice.
 ### Approach / **Attempt**
