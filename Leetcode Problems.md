@@ -14,4 +14,4 @@
 > 2. Add a for loop with length of the string, and verify through an if-statement that the characters are only digits or letters
 > 3. Concatenate these characters to the new empty string through concatenation
 > 4. Create a new string and invert the new defined string
-> 5. Compare if both are equal; return true if they are, or false otherwise
+> 5. Compare if both are equal; return true if they are, or false otherwise **_Solved_**
