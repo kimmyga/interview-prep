@@ -31,3 +31,7 @@
 > 1. Create an empty Hashmap (set())
 > 2. Through a for-loop of nums, check If num is in the newly create HashMap. If it is, return True, otherwise, add it to the set and check again.
 > 3. Return False if there's no repeated numbers.
+
+## 139. [Word Break](https://leetcode.com/problems/word-break/description/?envType=problem-list-v2&envId=oizxjoit) (Not solved yet)
+
+
