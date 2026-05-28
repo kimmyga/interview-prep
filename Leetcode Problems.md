@@ -34,4 +34,32 @@
 
 ## 139. [Word Break](https://leetcode.com/problems/word-break/description/?envType=problem-list-v2&envId=oizxjoit) (Not solved yet)
 
+## 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/?envType=problem-list-v2&envId=oizxjoit)
+### Description
+### Approach / **Attempt**
+> I tried to create two lists, one for the open characters '([{' and the other one for the closed characters ')]}'. I also created a variable that hold a -1 index. Then, I used a for-loop for the string and identify to iterate through s and store in a new variable the index number of the found start character, so then I can compare it with the end character. Only works for a few situations, but doesn't for single characters. **In Progress**
 
+open_character = ['(', '[', '{',]
+        close_character = [')', ']', '}']
+
+        reverse_index = -1
+        has_pair = True
+        for i in range(len(s)):
+            if s[i] in open_character:
+                match = open_character.index(s[i])
+
+                if s[reverse_index] == close_character[match]:
+                    has_pair = True
+                    reverse_index -= 1
+                else:
+                    has_pair = False
+                
+                together = open_character[match] + close_character[match]
+
+                if s[i:i+2] == together:
+                    has_pair = True
+                    i += 2
+                else:
+                    has_pair = False
+        return has_pair
+        
