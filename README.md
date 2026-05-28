@@ -25,23 +25,31 @@ Want to be able to form meaningful connections with others so that we can all su
 ### College Resources 
 There are different resources available for students, it's just a matter of looking for them and also find the right connections that can redirect you toward these paths.
 #### College Staff
+Establishing meaningful relationships and following up with people and staff that I meet throughout my college experience.
 #### Events 
+Cool people and cool opportunities, and a chance to learn more about the field and hear other people's experiences.
 #### Programs
+A good way to meet others and find a community where we share commonalities. Also a good way to get to know more the company and keep in mind the 6 degrees of connection.
 
 ### Mock Interview Structure
 I would like to be prepared enough when getting interviewed when it comes to both my technical skills (Leetcode) and also questions about myself when looking for the right fit and candidate in a company. 
 Having an elevator pitch that I can use in different settings and being able to tailor it when needed could open doors (in job fair events for example)
 #### Elevator Pitch
+Having an elevator pitch that I can use in different settings and being able to tailor it when needed could open doors (in job fair events for example).
 #### Potential Questions/Answers
+Practice, rehearse, review and redo answers to potential and known questions for interviews in order to be better prepared and not get frozen when an unexpected question is asked.
 
 ### Internship 
+his will definitely provide the real world experience needed as a student to be a better candidate for future applications after graduating to ensure employment. Here, I will be able to put into practice the goals and practicable skills.
 #### Applications Tracking
+It will allow me to be organized during the application processes, and also, it will be easier to get back to the companies' information needed during interviews if selected for one
 #### Company Research
+This is part of the Applications Tracking section, but basically it'll let me learn from the company and figure out whether or not their work and goals align with what I want to do and how I'd like to use my skills.
 
 ### Strengths & Weaknesses 
-
+Identify my strengths to use them to my advantage during this process as well as my weaknesses so that I can work on them and improve.
 #### Areas to Improve Definition and Progress
-
+Track my progress on the area I'd like to get better at.
 
 ## Description
 This project is record the progress made on the different areas ensure performance at my best during interview for internships/jobs/opportunities, including but not limited to technical behavioral skills.
