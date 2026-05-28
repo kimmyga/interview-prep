@@ -36,6 +36,7 @@
 
 ## 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/?envType=problem-list-v2&envId=oizxjoit)
 ### Description
+Create code to check that given string is contains open and closed characters in the right order of the following characters: '([{}])'
 ### Approach / **Attempt**
 > I tried to create two lists, one for the open characters '([{' and the other one for the closed characters ')]}'. I also created a variable that hold a -1 index. Then, I used a for-loop for the string and identify to iterate through s and store in a new variable the index number of the found start character, so then I can compare it with the end character. Only works for a few situations, but doesn't for single characters. **In Progress**
 
@@ -63,3 +64,15 @@ open_character = ['(', '[', '{',]
                     has_pair = False
         return has_pair
         
+## 268. [Missing Number](https://leetcode.com/problems/missing-number/description/?envType=problem-list-v2&envId=oizxjoit)
+### Description
+Given an array containing n numbers, find the one that is missing and return it
+### Approach / **Attempt**
+> 1. Create a variable that hold the summ of the n values.
+> 2. Substract the real sum of the numbers from the total sum. The result will be the missing number.
+> 
+            summ = 0
+            for i in range(len(nums) + 1):
+                  summ += i
+      
+            return summ - sum(nums)
