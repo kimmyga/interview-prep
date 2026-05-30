@@ -102,3 +102,11 @@ From a string represented as roman numerals, convert it to an integer.
 > 4. Use an if-statement and compare the numbers accessed by the dictionary and using the current index number of the provided string to compared it to the following index to check whether the current one is less than the next index value. If so, then substract the current value from the total sum.
 > 5. If it not smaller, then just add the current number up into the sum variable.
 > 6. Finally, return the final sum but add the last index number to the final sum
+
+## 1822. [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/?envType=study-plan-v2&envId=programming-skills)
+### Description
+from a list of numbers, find the product and return -1 if the product is negative, return 1 if the product is positive, and return 0 if the product is 0. Then return the signFunc(product).
+### **Approach** / Attempt
+> 1. I defined a new function called signFunc that holds two arguments; self and product. And this basically contains the three scenarios and return the corresponding numbers based on the product provided.
+> 2. I worked on the defined function arraySign to calculate the product of the array of numbers, for which I created a new variable to 1 and used a for loop that goes through the list of numbers to multiply each element of the list to store it in the product variable.
+> 3. Then, inside this function, I called the function I defined before and added the calculated argument (product), so it return the number depending on the number of the final product.
