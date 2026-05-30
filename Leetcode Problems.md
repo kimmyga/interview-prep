@@ -91,3 +91,14 @@ From an array of numbers, increment by one and return it as an array of numbers 
 > 2. Check if each index of the list and check if the number is different than 9 and increment it by one, then return the updated list once finished.
 > 3. Otherwise, if the such number is 9, equal it to 0
 > 4. Since the numbers equal to 9 may need an extra element on the list (for cases like 9, 99, 999, 9999), return the list with a [1] plus the updated list of numbers
+
+## 13. [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/?envType=study-plan-v2&envId=programming-skills)
+### Description
+From a string represented as roman numerals, convert it to an integer.
+### **Approach** / Attempt
+> 1. Create a dictionary that contains the roman numeral as the key and the integer representation as the value (the reason I did this is to access the values through the index of the provided string.
+> 2. Define a variable to 0 that hold the sumation of the numbers
+> 3. Create a for loop that goes through the provided string except for the last character
+> 4. Use an if-statement and compare the numbers accessed by the dictionary and using the current index number of the provided string to compared it to the following index to check whether the current one is less than the next index value. If so, then substract the current value from the total sum.
+> 5. If it not smaller, then just add the current number up into the sum variable.
+> 6. Finally, return the final sum but add the last index number to the final sum
