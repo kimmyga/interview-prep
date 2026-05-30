@@ -76,3 +76,9 @@ Given an array containing n numbers, find the one that is missing and return it
                   summ += i
       
             return summ - sum(nums)
+
+## 28. [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=study-plan-v2&envId=programming-skills)
+### Description
+Find the first index that a string occurs for the first time in another strng.
+### **Approach** / Attempt
+> 1. I used the method find, which returns the index of the first occurence for such string.
