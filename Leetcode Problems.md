@@ -79,6 +79,15 @@ Given an array containing n numbers, find the one that is missing and return it
 
 ## 28. [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=study-plan-v2&envId=programming-skills)
 ### Description
-Find the first index that a string occurs for the first time in another strng.
+Find the first index that a string occurs for the first time in another string.
 ### **Approach** / Attempt
 > 1. I used the method find, which returns the index of the first occurence for such string.
+
+## 66. [Plus One](https://leetcode.com/problems/plus-one/description/?envType=study-plan-v2&envId=programming-skills)
+### Description
+From an array of numbers, increment by one and return it as an array of numbers as well.
+### **Approach** / Attempt
+> 1. Create a for loop that goes through the list in reverse order
+> 2. Check if each index of the list and check if the number is different than 9 and increment it by one, then return the updated list once finished.
+> 3. Otherwise, if the such number is 9, equal it to 0
+> 4. Since the numbers equal to 9 may need an extra element on the list (for cases like 9, 99, 999, 9999), return the list with a [1] plus the updated list of numbers
